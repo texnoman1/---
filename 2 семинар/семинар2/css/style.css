@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Teddy Bear';
+    src: url('../fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+ 
+body {
+    background-color: aquamarine;
+ 
+}
+ 
+h1 {
+    color: red;  /* цвет для тэга h1*/
+}
+ 
+h2 {
+    color: gold; /* цвет для тэга h2*/
+}
+ 
+a {
+    color: green;
+    font-family: 'Teddy Bear';  /* цвет для ссылок*/
+}
+ 
+    .link_ya:hover {      /* .link_ya  обращение к классу link_ya, отдельный цвет для ссылки яндекс */   
+        color: coral;   /* :hover до перехода по ссылке */
+    }
+    .link_ya:visited {   /* :visited меняет цвет после перехода по ссылке */
+        color: darkblue;
+    }
+.img_style {
+    height: 140px;
+    margin-left: 50px;
+    border: 5px dotted #f00;
+    /*padding: 10px 0 10px 0;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+.font_style {
+    font-size: 1.5rem;
+}
+ 
+.color_chocolate {
+    color: chocolate;
+}
+ 
+.square_list {
+    list-style-type: square;
+}
