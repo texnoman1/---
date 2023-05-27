@@ -1,0 +1,36 @@
+figure img {
+    width: 10%; /* Ширина в процентах */
+   }
+
+   .img_style {
+    width: 20%;  /* процент от ширины*/
+    margin-left: 10px; /* отступ слева*/
+    border: 5px dotted #f00;  /* рамка из красных точек*/
+    /*padding: 10px 0 10px 0;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   
+
+.img_style1 {
+    width: 20%;  /* процент от ширины*/
+    margin-left: 10px; /* отступ слева*/
+    border: 5px dotted rgb(0, 21, 255);  /* рамка из красных точек*/
+    /*padding: 10px 0 10px 0;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   
+
+.square_list {
+    list-style-type: square;
+    color:blueviolet;
+}
+
+.square_list1 {
+    list-style-type: square;
+    color:rgb(226, 43, 43);
+}
+
+body {
+    background-color: aquamarine;
+ 
+}
